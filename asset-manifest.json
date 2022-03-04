@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.91eb143b.css",
+    "main.js": "/react-deploy/static/js/main.ece4e1c2.js",
+    "static/js/787.31386657.chunk.js": "/react-deploy/static/js/787.31386657.chunk.js",
+    "static/media/youtube.png": "/react-deploy/static/media/youtube.4504d71f9d363b16eeec.png",
+    "static/media/instagram.png": "/react-deploy/static/media/instagram.08546dfb3ae2748cbd46.png",
+    "static/media/GitHub.png": "/react-deploy/static/media/GitHub.7c8f7736007664c4b0ba.png",
+    "static/media/email.png": "/react-deploy/static/media/email.f8956154d5eb279fbb2f.png",
+    "static/media/linkedIn.png": "/react-deploy/static/media/linkedIn.367e73f523d32c24d9df.png",
+    "index.html": "/react-deploy/index.html",
+    "main.91eb143b.css.map": "/react-deploy/static/css/main.91eb143b.css.map",
+    "main.ece4e1c2.js.map": "/react-deploy/static/js/main.ece4e1c2.js.map",
+    "787.31386657.chunk.js.map": "/react-deploy/static/js/787.31386657.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.91eb143b.css",
+    "static/js/main.ece4e1c2.js"
+  ]
+}
