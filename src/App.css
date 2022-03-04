@@ -1,38 +1,138 @@
-.App {
-  text-align: center;
-}
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.web {
+  font-family: Helvetica, sans-serif;
+  color: rgb(39, 39, 39);
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.top {
+  display: flex;
+  font-weight: bold;
   align-items: center;
+  justify-content: space-between;
+margin-left: 10px;
+font-size: 14px;
+margin-bottom: 100px;
+}
+
+.emailtop {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.mb {
+  font-size: 20px;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.email {
+  height: 40px;
+  
 }
+
+.body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+}
+
+.text {
+  margin: 20px;
+}
+
+
+.name {
+  font-weight: bolder;
+  font-size: 65px;
+  margin-top: -17px;
+  margin-bottom: -80px;
+}
+
+.last {
+  font-weight: bolder;
+  font-size: 65px;
+  margin-left: 80px;
+  
+}
+
+.desc {
+  max-width: 500px;
+}
+
+.pp {
+  width: 260px;
+  height: 260px;
+  border-radius: 18px;
+  margin: 20px;
+}
+
+
+.logo {
+  width: auto;
+  height: 100px;
+  flex: 1;
+  margin: 30px;
+}
+.logo-one {
+  height: 160px;
+  margin: -33px;
+  flex: 1;
+
+}
+
+.logo-two {
+  width: auto;
+  height: 100px;
+  flex: 1;
+  margin: -10px;
+}
+
+.links {
+  display: flex;
+  background-color: rgba(218, 218, 218, 0.32);
+  border-radius: 19px;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  max-width: 1200px;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+@media only screen and (max-width: 748px) {
+  /*
+.emailtop {
+  font-size: 12px;
+  
+}
+ .email {
+   height: 20px;
+   width: auto;
+ }
+*/
+ .header {
+   flex-direction: column-reverse;
+   gap: 0;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .text {
+   justify-content: center;
+ }
+
+}
+
