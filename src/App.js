@@ -1,23 +1,39 @@
 
 import './App.css';
-
-
+import React, {useState} from 'react';
+import { Switch } from 'antd';
+import SvgComponent from './components/email';
 
 
 function App() {
+
+  const [toggle, setToggle] =useState(false);
+
+  const toggler = () => {
+    toggle ? setToggle(false) : setToggle(true);
+  }
+
   return (
 
     
+<body className={toggle ? "darkBack" : "lightBack"}>
 <div className='web'>
   <div className='top'>
       <p className='mb'>mb</p>
+      <Switch onClick={toggler} />
+      {toggle ? <span>Light</span> : <span>Dark</span>}
+
+
+
+
+
       <div className='emailtop'>
        <p>call me (647) 781 7041 / bachraty.m@gmail.com</p>
-       <a href="mailto:bachraty.m@gmail.com"><img className='email' href="mailto:bachraty.m@gmail.com" src={require('./pics/email.png')} width={50} height={50}/>
+       <a href="mailto:bachraty.m@gmail.com"><img className='email' href="mailto:bachraty.m@gmail.com" src={toggle ? require('./pics/emailThree.svg') : require('./pics/emailTwo.svg')} width={50} height={50}/>
       </a> 
       </div>
   </div>
-  <div className='body'>
+  <div className='bodys'>
     <div className='header'>
      <div className='text'>
        
@@ -40,25 +56,29 @@ function App() {
       <div className='links'>
 
        
-        <a href='https://www.instagram.com/'>
+        <a href='https://www.instagram.com/matthew_bachraty/' target="_blank">
           <img className='logo' src={require('./pics/instagram.png')} />
         </a>
-        <a href='https://ca.linkedin.com/'>
+        <a href='https://www.linkedin.com/in/mbachraty/' target="_blank">
           <img className='logo' src={require('./pics/linkedIn.png')} />
         </a>
        
         
-        <a href='https://www.youtube.com/'>
+        <a href='https://www.youtube.com/channel/UC936fgViO-ok_4RBH2yLDHQ/featured' target="_blank">
           <img className='logo-one' src={require('./pics/youtube.png')} />
         </a>
-        <a href='https://github.com/'>
+        <a href='https://github.com/mbachrat' target="_blank">
           <img className='logo-two' src={require('./pics/GitHub.png')} />
         </a>
         
      </div>
   </div>
   </div>
+  </body> 
   );
 }
 // @media only screen and (max-width: 600px) 
+
+
 export default App;
+
