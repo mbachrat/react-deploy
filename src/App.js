@@ -3,7 +3,8 @@ import './App.css';
 import React, {useState} from 'react';
 import { Switch } from 'antd';
 import SvgComponent from './components/email';
-
+import mySvg from './pics/emailThree.svg'
+import white from './pics/emailTwo.svg'
 
 function App() {
 
@@ -29,7 +30,7 @@ function App() {
 
       <div className='emailtop'>
        <p>call me (647) 781 7041 / bachraty.m@gmail.com</p>
-       <a href="mailto:bachraty.m@gmail.com"><img className='email' href="mailto:bachraty.m@gmail.com" src={toggle ? require('./pics/emailThree.svg') : require('./pics/emailTwo.svg')} width={50} height={50}/>
+       <a href="mailto:bachraty.m@gmail.com"><img className='email' href="mailto:bachraty.m@gmail.com" src={toggle ? mySvg : white} width={30} height={30}/>
       </a> 
       </div>
   </div>
