@@ -29,7 +29,7 @@ function App() {
 
 
       <div className='emailtop'>
-       <p>call me (647) 781 7041 / bachraty.m@gmail.com</p>
+       <p> not available / bachraty.m@gmail.com</p>
        <a href="mailto:bachraty.m@gmail.com"><img className='email' href="mailto:bachraty.m@gmail.com" src={toggle ? mySvg : white} width={30} height={30}/>
       </a> 
       </div>
