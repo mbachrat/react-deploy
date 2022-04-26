@@ -1,6 +1,6 @@
     #This is an example webapp.io configuration for React!
     FROM vm/ubuntu:18.04
-    
+    MEMORY 2G
     # To note: Layerfiles create entire VMs, *not* containers!
     
     RUN curl -fSsL https://deb.nodesource.com/setup_12.x | bash && \
@@ -8,12 +8,12 @@
         rm -f /etc/apt/sources.list.d/nodesource.list
     
     # node is a memory hog
-    MEMORY 2G
+    
     ENV NODE_OPTIONS=--max-old-space-size=8192
     
     COPY . .
-    RUN npm install || true
-    RUN BACKGROUND npm start || python3 -m http.server 3000
+    RUN npm install
+    RUN BACKGROUND npm start
     
     # Create a unique link to share the app in this runner.
     # Every time someone clicks the link, we'll wake up this staging server.
