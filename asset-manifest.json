@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/gh-pages/static/css/main.15e7d951.css",
-    "main.js": "/gh-pages/static/js/main.cf11b5ca.js",
-    "static/js/787.31386657.chunk.js": "/gh-pages/static/js/787.31386657.chunk.js",
-    "static/media/youtube.png": "/gh-pages/static/media/youtube.4504d71f9d363b16eeec.png",
-    "static/media/instagram.png": "/gh-pages/static/media/instagram.08546dfb3ae2748cbd46.png",
-    "static/media/GitHub.png": "/gh-pages/static/media/GitHub.7c8f7736007664c4b0ba.png",
-    "static/media/linkedIn.png": "/gh-pages/static/media/linkedIn.367e73f523d32c24d9df.png",
-    "static/media/emailTwo.svg": "/gh-pages/static/media/emailTwo.09f59b228b67847fa9c917396a218b25.svg",
-    "static/media/emailThree.svg": "/gh-pages/static/media/emailThree.f6109a7755f63ada8e047f0fc0cc1563.svg",
-    "index.html": "/gh-pages/index.html",
-    "main.15e7d951.css.map": "/gh-pages/static/css/main.15e7d951.css.map",
-    "main.cf11b5ca.js.map": "/gh-pages/static/js/main.cf11b5ca.js.map",
-    "787.31386657.chunk.js.map": "/gh-pages/static/js/787.31386657.chunk.js.map"
+    "main.css": "/react-deploy/static/css/main.15e7d951.css",
+    "main.js": "/react-deploy/static/js/main.df52b98b.js",
+    "static/js/787.31386657.chunk.js": "/react-deploy/static/js/787.31386657.chunk.js",
+    "static/media/youtube.png": "/react-deploy/static/media/youtube.4504d71f9d363b16eeec.png",
+    "static/media/instagram.png": "/react-deploy/static/media/instagram.08546dfb3ae2748cbd46.png",
+    "static/media/GitHub.png": "/react-deploy/static/media/GitHub.7c8f7736007664c4b0ba.png",
+    "static/media/linkedIn.png": "/react-deploy/static/media/linkedIn.367e73f523d32c24d9df.png",
+    "static/media/emailTwo.svg": "/react-deploy/static/media/emailTwo.09f59b228b67847fa9c917396a218b25.svg",
+    "index.html": "/react-deploy/index.html",
+    "static/media/emailThree.svg": "/react-deploy/static/media/emailThree.f6109a7755f63ada8e047f0fc0cc1563.svg",
+    "main.15e7d951.css.map": "/react-deploy/static/css/main.15e7d951.css.map",
+    "main.df52b98b.js.map": "/react-deploy/static/js/main.df52b98b.js.map",
+    "787.31386657.chunk.js.map": "/react-deploy/static/js/787.31386657.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.15e7d951.css",
-    "static/js/main.cf11b5ca.js"
+    "static/js/main.df52b98b.js"
   ]
 }
